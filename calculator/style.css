@@ -1,0 +1,28 @@
+body {
+    margin: 0 auto;
+    text-align :center;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+}
+
+#result {
+    margin: 30px 0;
+}
+
+.title {
+    font-size: 1.6rem;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 50%;
+    height: 50%;
+}
