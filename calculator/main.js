@@ -4,6 +4,14 @@ var multi = document.getElementById('multi_button')
 var divide = document.getElementById('divide_button')
 
 ///////////////////////////////////////////////// 足し算
+
+    // 要素を生成する
+    var p = document.createElement('p');
+    p.innerHTML = 'new element';
+    
+    // DOMに組み込む
+    var d = document.getElementById('div1');
+    
 plus.addEventListener('click', function () {
     var number1 = document.getElementById('num1')
     var number2 = document.getElementById('num2')
@@ -18,6 +26,11 @@ plus.addEventListener('click', function () {
     // 表示
     console.log(plus_result);
     document.getElementById('result').innerHTML = plus_result;
+
+    const aaa = document.getElementById('plus_button')
+    aaa.addEventListener('click', function () {
+    d.appendChild(p);
+      });
 });
 
 ///////////////////////////////////////////////// 引き算
